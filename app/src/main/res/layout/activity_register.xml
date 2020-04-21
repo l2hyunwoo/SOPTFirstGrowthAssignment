@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/soptlogo_min"
+        android:layout_gravity="center"
+        android:layout_marginTop="116dp"
+        />
+
+    <EditText
+        android:id = "@+id/et_mail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint = "이메일"
+        android:background="@layout/edittext_background"
+        android:paddingLeft="15dp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id = "@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint = "패스워드"
+        android:background="@layout/edittext_background"
+        android:paddingLeft="15dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id = "@+id/et_passwordCheck"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint = "패스워드 확인"
+        android:background="@layout/edittext_background"
+        android:paddingLeft="15dp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id = "@+id/et_gitNick"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint = "GitHub 닉네임"
+        android:background="@layout/edittext_background"
+        android:paddingLeft="15dp"
+        android:inputType="text"/>
+    <Button
+        android:id = "@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        android:text = "회원가입"
+        android:textSize="20sp"
+        />
+</LinearLayout>
