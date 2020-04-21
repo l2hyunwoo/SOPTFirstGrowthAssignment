@@ -1,6 +1,12 @@
 # SOPT Android 필수과제 2번 및 성장과제
 SOPT 안드로이드 필수과제 2
 
+## CapturedImages
+<img src="https://user-images.githubusercontent.com/54518925/79833490-68ab6080-83e6-11ea-90c1-3e38352afde2.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/54518925/79833712-cfc91500-83e6-11ea-9a39-65fe7721f58c.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/54518925/79833600-9ee8e000-83e6-11ea-9491-fbcdf74a9729.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/54518925/79833632-b0ca8300-83e6-11ea-845c-8c2a4444eef0.png" width="30%"></img>
+
 ## 액티비티간 데이터 전달, sAFR && oAR
 ### LoginActivity.kt
 ```
