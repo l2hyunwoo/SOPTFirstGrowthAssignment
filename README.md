@@ -45,11 +45,11 @@ btn_register.setOnClickListener{
 
 위와 같은 방법으로 데이터들을 주고받을 수가 있었다.
 
-## 로그인 유지를 SharedReference(이하 SR)로 한다
+## 로그인 유지를 SharedPreference(이하 SP)로 한다
 ### LoginActivity.kt
-+ object class MySharedReference를 만들고 해당 클래스에 isLogin, mail, password에 대한 정보를 담을 수 있게 구현
-+ 회원가입 후 로그인 성공 시 isLogin을 true로 바꾸고 회원가입 정보(mail, password) 역시 SR에 저장하여 앱 종료뒤에도 자동 로그인할 수 있게 구현
-+ mainActivity가 종료되어서 로그인 창으로 가도 SR에 저장된 데이터로 로그인을 할 수 있게 구현
++ object class MySharedPreference를 만들고 해당 클래스에 isLogin, mail, password에 대한 정보를 담을 수 있게 구현
++ 회원가입 후 로그인 성공 시 isLogin을 true로 바꾸고 회원가입 정보(mail, password) 역시 SP에 저장하여 앱 종료뒤에도 자동 로그인할 수 있게 구현
++ mainActivity가 종료되어서 로그인 창으로 가도 SP에 저장된 데이터로 로그인을 할 수 있게 구현
 
 ```
 if(MySharedPreferences.myIsLogin){
